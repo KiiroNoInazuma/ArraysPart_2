@@ -1,6 +1,7 @@
 import java.util.Random;
 
 public class Accountants {
+
     static public int[] ledger() {
         Random random = new Random();
         int[] mass = new int[30];
