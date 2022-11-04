@@ -1,7 +1,7 @@
-public class MinMax extends Accountants {
+public class MinMax extends InitialArray {
     public static void main(String[] args) {
-        Accountants acc = new MinMax();
-        int[] arr = acc.ledger();
+        InitialArray mm = new MinMax();
+        int[] arr = mm.ledger();
         int resultMin = arr[0];
         int resultMax = resultMin;
 
@@ -13,6 +13,6 @@ public class MinMax extends Accountants {
             }
         }
         System.out.println("Минимальная сумма трат за день составила " + resultMin + " рублей. Максимальная сумма трат за день составила " + resultMax + " рублей.");
-        System.out.println(acc.showArray);
+        System.out.println(mm.showArray);
     }
 }
