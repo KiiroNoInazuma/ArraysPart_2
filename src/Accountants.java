@@ -20,7 +20,5 @@ public class Accountants {
             sum += t;
         }
         System.out.println("Сумма трат за месяц составила " + sum + " рублей");
-
-
     }
 }
