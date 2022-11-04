@@ -6,9 +6,9 @@ public class InitialArray {
 
     public int[] ledger() {
         Random random = new Random();
-        int[] mass = new int[30];
+        int[] mass = new int[5];
         for (int x = 0; x < mass.length; x++) {
-            mass[x] = 100000 + random.nextInt(100000) + 1;
+            mass[x] = 100 + random.nextInt(100) + 1;
         }
         return mass;
     }

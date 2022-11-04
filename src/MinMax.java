@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class MinMax {
     public static void main(String[] args) {
         InitialArray mm = new InitialArray();
@@ -13,6 +15,6 @@ public class MinMax {
             }
         }
         System.out.println("Минимальная сумма трат за день составила " + resultMin + " рублей. Максимальная сумма трат за день составила " + resultMax + " рублей.");
-        System.out.println(mm.showArray);
+        System.out.println(Arrays.toString(arr));
     }
 }
