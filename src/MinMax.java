@@ -1,6 +1,6 @@
-public class MinMax extends InitialArray {
+public class MinMax {
     public static void main(String[] args) {
-        InitialArray mm = new MinMax();
+        InitialArray mm = new InitialArray();
         int[] arr = mm.ledger();
         int resultMin = arr[0];
         int resultMax = resultMin;
