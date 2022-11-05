@@ -1,7 +1,7 @@
 public class Confusion {
     public static void main(String[] args) {
         char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
-        for (int x = reverseFullName.length-1; x >= 0; x--) {
+        for (int x = reverseFullName.length - 1; x >= 0; x--) {
             System.out.print(reverseFullName[x]);
         }
     }
